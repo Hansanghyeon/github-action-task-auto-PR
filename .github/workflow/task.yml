@@ -5,4 +5,4 @@ jobs:
   createPR:
     runs-on: ubuntu-latest
     steps:
-	- run: echo ${{ github.event.repository.owner }}
+      - run: echo ${{ github.event.repository.owner }}
