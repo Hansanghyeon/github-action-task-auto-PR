@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     # if: ${{ github.event.repository.owner.name == 'beeclover' }}
     steps:
+      - uses: actions/checkout@v2
       - name: Extract branch name
         shell: bash
         run: |
