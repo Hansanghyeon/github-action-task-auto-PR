@@ -1,8 +1,0 @@
-name: task branch 자동 PR 만들기
-on: [push]
-
-jobs:
-  createPR:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo ${{ github.event.repository.owner }}
